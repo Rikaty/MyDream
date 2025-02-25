@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="uk">
-<!-- https://www.figma.com/design/GBkRazARI37fgVc4co3Yhq/%D0%A1%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%8F-%D0%BF%D0%B5%D0%BA%D0%B0%D1%80%D0%BD%D1%8F-(Copy)?node-id=0-1&node-type=canvas&t=0TAounjzwzZjT7NQ-0 -->
 
 <head>
   <meta charset="UTF-8">
@@ -20,13 +19,12 @@
     <div class="container">
       <div class="header-container">
         <nav class="header-nav">
-          <a rhef="#">
             <!-- logo -->
             <ul class="header-menu">
-              <li class="header-item"><a class="link" rhef="traditions-section" target=""></a></li>
-              <li class="header-item"><a class="link" rhef="chefs-section"></a></li>
-              <li class="header-item"><a class="link" rhef="formats-section"></a></li>
-              <li class="header-item"><a class="link" rhef="contact-section"></a></li>
+              <li class="header-item"><a class="link" href="traditions-section" target=""></a></li>
+              <li class="header-item"><a class="link" href="chefs-section"></a></li>
+              <li class="header-item"><a class="link" href="formats-section"></a></li>
+              <li class="header-item"><a class="link" href="contact-section"></a></li>
             </ul>
         </nav>
         <button class="button modal-btn-open" type="button">Дізнатись більше</button>
@@ -39,7 +37,7 @@
 
     </section>
 
-    <section class="advantages-section">
+    <!-- <section class="advantages-section">
       <div class="container">
         <div class="traditions-conteiner">
           <div class="tradition-content">
@@ -51,7 +49,7 @@
             </ul>
           </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="traditions-section section" id="traditions-selection">
       <div class="container">
@@ -59,7 +57,7 @@
         <div class="traditions-container">
           <div>
             <p class="traditions-text">
-              <span class="brand uppercase">Україна – це більше, ніж просто країна. Це велична історія, вписана у віки,
+              <span class="brand uppercase">Україна</span> – це більше, ніж просто країна. Це велична історія, вписана у віки,
                 яка цілком влучно відображає нескорений дух, що горить у серцях мільйонів. Це слава, що лине крізь
                 століття. Я щиро мрію про Україну, яка попри всі теперішні негаразди розквітне у своїй величі, стане
                 взірцем сили, краси та непохитної волі. Це земля, яка завжди відроджується, незважаючи на бурі та
@@ -77,7 +75,7 @@
 
 
           </div>
-          <img class="flag" src="./images/DreamIntroduction 1.jpg" alt="прапор" />
+          <img class="flag" src="images/DreamIntroduction 1.jpg" alt="прапор" />
         </div>
       </div>
 
@@ -85,48 +83,66 @@
 
 
     <section class="section contact-section">
-
-      <h2 class="chefs-title section-title centered"><span class="main-innovations">Україна<span class="innovations">
-            майбутнього</span></h2>
-      <ul class="chefs-list">
-        <li class="chefs-item">
-          <article class="chef-card">
-            <img class="chefs-image" src="./images/technologies.jpg" alt="technologies">
-            <div class="">
-              <h3 class="chef-title">Технології</h3>
-              <div class="chef-text">
-                <p>Я мрію про Україну, де наука й технології творять дива.</p>
-                <p>Де на кожному кроці працюють лабораторії, а
-                  вчені створюють новинки, які змінюють хід історії.</p>
-                <p>Чому б нашій країні не стати ще сміливішою, ще
-                  креативнішою?
-                </p>
-                <p>Наприклад, створювати нові безпілотні електрокари, що розсікають вулицями наших міст,
-                  роботів, які допомагають у лікарнях, або про штучний інтелект, що замінює нудну паперову бюрократію.
-                </p>
+      <div class="container">
+        <h2 class="chefs-title section-title centered"><span class="main-innovations">Україна<span class="innovations">
+              майбутнього</span></span></h2>
+        <ul class="chefs-list">
+          <li class="chefs-item">
+            <article class="chef-card">
+              <img class="chefs-image" src="./images/technologies.jpg" alt="technologies">
+              <div class="">
+                <h3 class="chef-title">Технології</h3>
+                <div class="chef-text">
+                  <p>Я мрію про Україну, де наука й технології творять дива.</p>
+                  <p>Де на кожному кроці працюють лабораторії, а
+                    вчені створюють новинки, які змінюють хід історії.</p>
+                  <p>Чому б нашій країні не стати ще сміливішою, ще
+                    креативнішою?
+                  </p>
+                  <p>Наприклад, створювати нові безпілотні електрокари, що розсікають вулицями наших міст,
+                    роботів, які допомагають у лікарнях, або про штучний інтелект, що замінює нудну паперову бюрократію.
+                  </p>
+                </div>
               </div>
-            </div>
-          </article>
-        </li>
-        <li class="chefs-item">
-          <article class="chef-card">
-            <img class="chefs-image" src="./images/edu.jpg" alt="vladus">
-            <div class="">
-              <h3 class="chef-title">Освіта</h3>
-              <p class="chef-text">Я мрію про школу, де тебе не змушують зубрити нудні параграфи,
-              <p class="chef-text"> а допомагають
-                зрозуміти, хто ти є. Де кожен учень має наставника, який допоможе знайти своє покликання.</p>
-              <p>У майбутній Україні діти вчитимуться в задоволення, а штучний інтелект підбиратиме персональну програму
-                навчання.
-                Тобі подобається малювати? Ти створюєш мультфільми! Любиш космос? Тебе запрошують на стажування в NASA!
-                Школа повинна бути місцем, яка заряджає твоє серце на нові відкриття, а не на думки «коли вже цей жах
-                закінчиться».</p>
-              <p class="chef-text">Я зроблю для вас унікальну начинку на будь-який смак!</p>
-            </div>
-          </article>
-        </li>
-      </ul>
+            </article>
+          </li>
+        </ul>
+        <ul class="chefs-list">
+          <li class="chefs-item">
+            <article class="chef-card">
+              <img class="chefs-image" src="./images/edu.jpg" alt="edu">
+              <div class="">
+                <h3 class="chef-title">Освіта</h3>
+                <p class="chef-text">Я мрію про школу, де тебе не змушують зубрити нудні параграфи,
+                <p class="chef-text"> а допомагають
+                  зрозуміти, хто ти є. Де кожен учень має наставника, який допоможе знайти своє покликання.</p>
+                <p>У майбутній Україні діти вчитимуться в задоволення, а штучний інтелект підбиратиме персональну
+                  програму
+                  навчання.
+                  Тобі подобається малювати? Ти створюєш мультфільми! Любиш космос? Тебе запрошують на стажування в
+                  NASA!
+                  Школа повинна бути місцем, яка заряджає твоє серце на нові відкриття, а не на думки «коли вже цей жах
+                  закінчиться».</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <ul class="chefs-list">
+          <li class="chefs-item">
+            <article class="chef-card">
+              <img class="chefs-image" src="./images/art.jpg" alt="art">
+              <div>
+                <h3 class="chef-title">Культура</h3>
+                <p class="chef-text">Чому українська музика не звучить на всіх континентах? Чому наші письменники не
+                  отримують Нобелівські премії? Це лише питання часу! Я мрію про Україну, де наша культура – це тренд.
+                  Де наші фільми збирають повні зали у світових кінотеатрах, а книги перекладаються десятками мов. Де
+                  українська мова – це не лише традиція, а стиль життя, яким захоплюються в усьому світі.</p>
+              </div>
+            </article>
+          </li>
+        </ul>
       </div>
+      
     </section>
 
     <section class="section contact-section">
@@ -147,24 +163,24 @@
           <ul class="formats-list">
             <li class="formats-item">
               <article class="format-card">
-                <h3>Відбудуємо</h3>
-                <>
+                <h3 class="formats-title">Відбудуємо</h3>
+                <img src="images/vidbu.jpg" alt="bud">
+
               </article>
             </li>
             <li class="formats-item">
               <article class="format-card">
-                <p>Повернемо всіх полонених</p>
+                <h3 class="formats-title">Повернемо полонених</h3>
+                <img src="images/poloneni.jpg" alt="pol">
+
               </article>
             </li>
             <li class="formats-item">
               <article class="format-card">
-                <h3 class="formats-title" lang="eng">Біженці повернуться додому</h3>
-                <p class="format-text">Площа: до 15м2</p>
-                <p class="format-text">Меню: найпопулярніші позиції меню</p>
-                <p class="format-text">Штат: 1 продавець, 1 пекар, 1 помічник пекаря,</p>
-                <p class="format-text">0 офіціантів</p>
-                <p class="format-text">Посадкові місця: відсутні</p>
-                
+                <h3 class="formats-title">Повернуться біженці</h3>
+                <img src="images/bizhentsy.jpg" alt="bizh">
+
+
               </article>
             </li>
           </ul>
@@ -174,6 +190,7 @@
             </svg>
           </button>
         </div>
+      </div>
     </section>
 
     <section class="section contact-section" id="contact-section">
@@ -182,19 +199,18 @@
           <div class="contact-form">
             <h2 class="section-title">А яким ви бачите майбутнє України?</h2>
             <p> Напишіть свою думку у коментарях!</p>
-            <form name="contact-form" autocomplete="on">
+            <form name="contact-form" autocomplete="on" novalidate>
               <div class="form-field">
                 <label class="form-label" for="user-name">Ім'я</label>
-                <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ім'я" />
+                <input class="form-input" type="text" name="user-name" id="user-name" />
               </div>
               <div class="form-field">
                 <label class="form-label" for="user-email">Електронна пошта</label>
-                <input class="form-input" type="email" name="user-email" id="user-email"
-                  placeholder="Електронна пошта" />
+                <input class="form-input" type="email" name="user-email" id="user-email" />
               </div>
               <div class="form-field">
                 <label class="form-label" for="user-comment">Коментар</label>
-                <input class="form-input" type="comment" name="user-comment" id="user-comment" placeholder="Телефон" />
+                <input class="form-input" type="text" name="user-comment" id="user-comment" />
               </div>
               <div>
                 <button class="form-button button" type="submit">Надіслати</button>
@@ -206,7 +222,7 @@
 
             </form>
           </div>
-          <img class="shirt-flowers" src="images/shirt-flowers.png"
+          <img class="shirt-flowers" src="images/shirt-flowers.png" alt="end">
         </div>
       </div>
     </section>
@@ -218,8 +234,8 @@
       <div class="footer-container">
         <nav class="footer-nav">
           <div class="footer-logo">
-            <a href="#">
-              </address>
+           
+             
           </div>
         </nav>
       </div>
@@ -232,16 +248,23 @@
 
   <div class="backdrop is-hidden">
     <div class="modal">
-      <button class="modal-btn-close" type="button">Close<use href="./images/modal-cross.zip"></use></button>
+      <button class="modal-btn-close" type="button">
+        Закрити
+        <!-- <svg class="modal-arrow" width="44" height="44">
+          <use href="./images/cross.svg"></use>
+        </svg> -->
+      </button>
       <h2 class="explanation">Чому я обрала саме цю тему?</h2>
 
       <div class="modal-info">
-        <img src="images/modal-collage.png" alt="">
+        <img src="images/modal-collage.png" alt="collage">
 
-        <p class="modal-text">Бо українці здатні на все! Попри війну ми живемо, мріємо, а наші цілі здійснюються:  у
+        <p class="modal-text" >Бо українці здатні на все! Попри війну ми живемо, мріємо, а наші цілі
+          здійснюються:  у
           2022 році гурт Kalush Orchestra з піснею "Stefania" здобув перемогу на конкурсі "Євробачення", Україна здобула
           золоту медаль у жіночій команді з фехтування. Борці на Чемпіонаті Європи 2023
-          року продовжили свою традицію успіхів, завоювавши низку медалей. У 2024 році Олександр Усик ще раз підтвердив свою домінуючу
+          року продовжили свою традицію успіхів, завоювавши низку медалей. У 2024 році Олександр Усик ще раз підтвердив
+          свою домінуючу
           позицію в боксі, ставши абсолютним чемпіоном світу. Не можу не згадати про наших військових, які щодня дають
           нам можливість жити, навчатися, працювати безперестанку, творити, мріяти, а отже, й досягати нового успіху,
           наближуючи нашу перемогу. Усе це демонструє наш незламний дух і показує всьому світу, що нас не здолати. Я
@@ -249,7 +272,7 @@
 
       </div>
       <div>
-        
+
       </div>
       <p class="form-terms">Натискаючи на кнопку, я погоджуюсь
         <a class="form-terms-link" href="#">з політикою конфіденційності</a>

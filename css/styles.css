@@ -228,6 +228,7 @@ ul {
 
 .traditions-container {
     display: flex;
+    gap: 40px;
 }
 
 .traditions-title {
@@ -239,6 +240,15 @@ ul {
 }
 
 .traditions-text .uppercase {
+    display: flex;
+    align-content: space-between;
+
+
+
+
+
+
+
     /*text-transform: uppercase;*/
 }
 
@@ -313,6 +323,7 @@ ul {
 .chefs-list {
     display: flex;
     gap: 40px 30px;
+
 }
 
 .chefs-item {
@@ -362,14 +373,23 @@ ul {
 .format-card {
     height: 444px;
     padding: 24px;
-    background-image:
-        /*url('//images/vidbuduemo.jpg')*/
+    background-image:    
         linear-gradient(180deg,
-            rgba(49, 38, 26, 0) 55.21%,
-            rgba(49, 38, 26, 0.71) 72.92%,
-            var(--color-primary-dark) 100%);
+        rgba(49, 38, 26, 0) 55.21%,
+        rgba(49, 38, 26, 0.71) 72.92%,
+        var(--color-primary-dark) 100%);
     border: 1px solid lightgrey;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.format-card img {
+    
+    height: 340px;
+  
 }
 
 .format-card:hover {
@@ -377,7 +397,9 @@ ul {
 }
 
 .formats-title {
-    margin-bottom: 80px;
+    height: 40px;
+    padding: 24px;
+    font-size: 16px;
 }
 
 .formats-text {
@@ -416,6 +438,7 @@ ul {
 
 .contact-container {
     display: flex;
+    gap: 40px;
 }
 
 .contact-title {
@@ -535,10 +558,18 @@ ul {
     width: 100%;
     max-width: 1000px;
     height: 100%;
-    max-height: 880px;
+    max-height: 980px;
     padding: 128px;
     background-color: var(--color-background);
     border-radius: 32px;
+}
+
+.modal-button{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 0;
 }
 
 .modal-btn-close {
@@ -548,19 +579,25 @@ ul {
 }
 
 .explanation {
-    text-align: right;
+    text-align: center;
 }
 
-.modal-text{
+.modal-text {
     text-align: justify;
+    color: var(--color-brown); 
+    text-decoration: none;
 }
 
-.modal-info{
+.modal-info {
     display: flex;
+    text-align:right;
+    gap: 10px;
+    pointer-events: none; 
 }
 
-.modal-info img{
-    height: 50%;
+.modal-info img {
+    width: 50%;
+    
 }
 
 /*form*/
@@ -571,10 +608,10 @@ ul {
 }
 
 .form-label {
-    position: absolute;
+    /* position: absolute; */
     display: block;
-    top: 16px;
-    left: 42px;
+    /* top: 16px;
+    left: 42px; */
 }
 
 .form-input {
@@ -582,7 +619,7 @@ ul {
     width: 100%;
     font-size: 16px;
     line-height: 1.17;
-    border: 1px solid var(--color-secondary-dark);
+    border: 1px solid var(--color-brown);
     border-radius: 8px;
     background-color: transparent;
 }
@@ -629,6 +666,6 @@ ul {
     text-underline-offset: ;
 }
 
-.shirt-flowers{
+.shirt-flowers {
     border-radius: 0cm;
 }
