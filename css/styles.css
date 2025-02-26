@@ -408,6 +408,53 @@ ul {
 }
 
 /*Carousel*/
+.carousel {
+    position: relative;
+    width: 100%;
+  }
+  
+  .carousel-container {
+    display: flex;
+  }
+  
+  .carousel-container img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .carousel-slide {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .carousel-slide img {
+    width: calc(100% / 3);
+    height: auto;
+  }
+  
+
 .carousel-button {
     display: flex;
     align-items: center;
@@ -579,19 +626,26 @@ ul {
 }
 
 .explanation {
+    display: flex;
+    color: var(--color-blue);
     text-align: center;
+    align-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .modal-text {
     text-align: justify;
     color: var(--color-brown); 
     text-decoration: none;
+    display: flex;
 }
 
 .modal-info {
     display: flex;
     text-align:right;
-    gap: 10px;
+    gap: 50px;
     pointer-events: none; 
 }
 
