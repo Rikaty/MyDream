@@ -211,6 +211,7 @@ ul {
     font-weight: 900;
     line-height: 1.3;
     text-align: center;
+    color: var(--color-blue);
 }
 
 .section-title.centered {
@@ -286,10 +287,11 @@ ul {
 }*/
 
 .chefs-image {
+    margin-bottom: 30px;
     border-radius: 4px 4px 4px 200px;
     box-shadow: -16px 16px 0 0 var(--color-primary-light),
         -16px 16px 0 2px var(--color-secondary-dark);
-
+    
 }
 
 /*.chefs-title::before,
@@ -327,6 +329,8 @@ ul {
 }
 
 .chefs-item {
+    
+
     /*flex-basis: calc(100% - 30px / 2);*/
 }
 
@@ -343,7 +347,7 @@ ul {
 
 .chef-text p {
     margin-bottom: 24px;
-    text-align: left;
+    text-align: justify;
 }
 
 .chef-text p:last-child {
@@ -373,11 +377,11 @@ ul {
 .format-card {
     height: 444px;
     padding: 24px;
-    background-image:    
+    background-image:
         linear-gradient(180deg,
-        rgba(49, 38, 26, 0) 55.21%,
-        rgba(49, 38, 26, 0.71) 72.92%,
-        var(--color-primary-dark) 100%);
+            rgba(49, 38, 26, 0) 55.21%,
+            rgba(49, 38, 26, 0.71) 72.92%,
+            var(--color-primary-dark) 100%);
     border: 1px solid lightgrey;
     border-radius: 16px;
     display: flex;
@@ -387,9 +391,9 @@ ul {
 }
 
 .format-card img {
-    
+
     height: 340px;
-  
+
 }
 
 .format-card:hover {
@@ -411,20 +415,20 @@ ul {
 .carousel {
     position: relative;
     width: 100%;
-  }
-  
-  .carousel-container {
+}
+
+.carousel-container {
     display: flex;
-  }
-  
-  .carousel-container img {
+}
+
+.carousel-container img {
     width: 100%;
     object-fit: cover;
     object-position: center;
-  }
-  
-  .prev,
-  .next {
+}
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -437,23 +441,23 @@ ul {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  .next {
+}
+
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
 
-  .carousel-slide {
+.carousel-slide {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .carousel-slide img {
+}
+
+.carousel-slide img {
     width: calc(100% / 3);
     height: auto;
-  }
-  
+}
+
 
 .carousel-button {
     display: flex;
@@ -611,7 +615,7 @@ ul {
     border-radius: 32px;
 }
 
-.modal-button{
+.modal-button {
     display: flex;
     align-items: right;
     justify-content: center;
@@ -637,21 +641,21 @@ ul {
 
 .modal-text {
     text-align: justify;
-    color: var(--color-brown); 
+    color: var(--color-brown);
     text-decoration: none;
     display: flex;
 }
 
 .modal-info {
     display: flex;
-    text-align:right;
+    text-align: right;
     gap: 50px;
-    pointer-events: none; 
+    pointer-events: none;
 }
 
 .modal-info img {
     width: 50%;
-    
+
 }
 
 /*form*/
